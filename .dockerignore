@@ -1,0 +1,16 @@
+# Python virtualenv & caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Git
+.git/
+
+# Tests (not needed for runtime image)
+tests/
+
+# Editor/OS junk
+*.swp
+*.swo
+.DS_Store
