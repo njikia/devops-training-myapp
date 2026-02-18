@@ -47,7 +47,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build and push (tag: latest and commit SHA)
+      - name: Build and push (latest + commit SHA)
         uses: docker/build-push-action@v6
         with:
           context: .
