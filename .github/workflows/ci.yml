@@ -56,7 +56,7 @@ jobs:
             metall1st3/myapp:latest
             metall1st3/myapp:${{ github.sha }}
 
-	      - name: Update lower manifest image tag
+      - name: Update lower manifest image tag
         run: |
           sed -i "s|metall1st3/myapp:REPLACE_ME|metall1st3/myapp:${{ github.sha }}|g" k8s-lower.yaml
 
