@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: metall1st3/myapp:REPLACE_ME
+          image: metall1st3/myapp:a6bc4cfc63ec77aa7a598d3e25f1a205dde3d49f
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
